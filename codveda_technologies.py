@@ -635,7 +635,6 @@ print("All species can be classified with high accuracy using the trained models
 """
 
 # 1. Install dan import library yang diperlukan
-!pip install nltk textblob wordcloud
 
 import pandas as pd
 import numpy as np
@@ -645,9 +644,13 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
+import sys
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+
+import subprocess
+subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk", "textblob", "wordcloud"])
 
 # 2. Load data
 df = pd.read_csv("/content/3) Sentiment dataset.csv")
