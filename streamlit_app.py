@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 
 # Set page configuration
 st.set_page_config(
-    page_title="PROCET INTERNSHIP CODVEDA TECHNOLOGIES BY DETA ERVIANA",
+    page_title="PROJECT INTERNSHIP CODVEDA TECHNOLOGIES BY DETA ERVIANA",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -90,7 +90,7 @@ with st.sidebar:
 # HOME PAGE
 # ====================
 if analysis_type == "🏠 Home":
-    st.markdown('<p class="main-header">🚀 CODVEDA Analytics Hub</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">🚀 PROJECT INTERSHP CODVEDA</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Platform Analisis Data Interaktif dengan Machine Learning</p>', unsafe_allow_html=True)
     
     # Welcome section with columns
