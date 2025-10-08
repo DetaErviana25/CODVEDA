@@ -90,7 +90,7 @@ with st.sidebar:
 # HOME PAGE
 # ====================
 if analysis_type == "🏠 Home":
-    st.markdown('<p class="main-header">🚀 PROJECT INTERSHP CODVEDA</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">🚀 PROJECT INTERSHIP CODVEDA</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Platform Analisis Data Interaktif dengan Machine Learning</p>', unsafe_allow_html=True)
     
     # Welcome section with columns
@@ -1480,7 +1480,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.markdown("""
     <div style='text-align: center; padding: 1rem;'>
-    <h4>🚀 CODVEDA Analytics Hub</h4>
+    <h4>🚀 PROJECT INTERNSHIP CODVEDA TECHNOLOGIES</h4>
     <p>Powered by Streamlit • Machine Learning • Data Science</p>
     <p style='color: #666;'>Built with ❤️ for Data Analysis & Insights</p>
     </div>
