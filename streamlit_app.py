@@ -1,3 +1,12 @@
+# Upgrade pip if needed (for Streamlit Cloud compatibility)
+import subprocess
+import sys
+
+try:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
+except:
+    pass
+
 import streamlit as st
 import pandas as pd
 import numpy as np
