@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 
 # Set page configuration
 st.set_page_config(
-    page_title="CODVEDA Analytics Hub",
+    page_title="PROCET INTERNSHIP CODVEDA TECHNOLOGIES BY DETA ERVIANA",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
